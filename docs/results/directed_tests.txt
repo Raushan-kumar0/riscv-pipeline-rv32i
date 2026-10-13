@@ -1,0 +1,9 @@
+Directed tests:
+  alu_test     [PASS] cycles=124 instret=118 CPI=1.051
+  mem_test     [PASS] cycles=100 instret=94 CPI=1.064
+  branch_test  [PASS] cycles=128 instret=80 CPI=1.600
+  hazard_test  [PASS] cycles=103 instret=88 CPI=1.170
+  bubble_sort  [PASS] cycles=6289 instret=4242 CPI=1.483
+  fib          [PASS] cycles=219 instret=157 CPI=1.395
+
+6/6 directed tests passed

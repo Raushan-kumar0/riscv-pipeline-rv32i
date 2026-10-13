@@ -1,0 +1,9 @@
+Bug hunt: each planted bug is switched on alone, then all tests run.
+
+  bug                  directed tests failing   random seeds failing
+  BUG_NO_EXMEM_FWD     6/6                      100/100
+  BUG_NO_LOAD_STALL    2/6                      70/100
+  BUG_NO_FLUSH_IFID    3/6                      100/100
+  BUG_SRA_AS_SRL       1/6                      30/100
+
+4/4 planted bugs were detected
